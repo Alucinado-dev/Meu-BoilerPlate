@@ -94,10 +94,6 @@
   "workbench.preferredDarkColorTheme": "2077",
   "synthwave84.brightness": 1,
   "code-runner.clearPreviousOutput": true,
-  "code-runner.defaultLanguage": "js",
-  "prettier.printWidth": 60,
-  "prettier.proseWrap": "always",
-  "prettier.useTabs": true,
   "chat.commandCenter.enabled": false,
   "geminicodeassist.inlineSuggestions.enableAuto": false,
   "geminicodeassist.project": "",
@@ -106,12 +102,7 @@
   "gitlens.ai.model": "gitkraken",
   "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
   "javascript.suggest.paths": false,
-  "errorLens.border": [
-    "",
-    "",
-    "",
-    "1px solid"
-  ],
+  "errorLens.border": ["", "", "", "1px solid"],
   "errorLens.fontStyleItalic": true,
   "errorLens.gutterIconsEnabled": true,
   "errorLens.messageBackgroundMode": "message",
@@ -134,25 +125,28 @@
     "Google Pixel Tablet (Pro)"
   ],
   "mobile-preview.url": "https://extensions.lilianbischung.fr",
-  
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.defaultFoldingRangeProvider": "google.geminicodeassist",
+
   "vsicons.dontShowNewVersionMessage": true,
   "eslint.format.enable": true,
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true, 
+  "editor.formatOnSave": true,
 
-  
   "window.zoomLevel": 1,
-  "breadcrumbs.enabled": false,
-  "editor.fontSize": 24,
-  "debug.console.fontSize": 24,
-  "terminal.integrated.fontSize": 24,
-  "editor.glyphMargin": false,
-  "workbench.activityBar.location": "hidden",
-  "editor.lineNumbers": "off",
-  "files.eol": "\n", 
-  
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "files.eol": "\n",
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true
+  },
 
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
@@ -173,6 +167,4 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
-  
 }
-
