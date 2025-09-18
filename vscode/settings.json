@@ -69,10 +69,6 @@
   },
   "files.autoSave": "afterDelay",
   "window.restoreWindows": "none",
-  "[html]": {
-  
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
     "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
@@ -138,10 +134,45 @@
     "Google Pixel Tablet (Pro)"
   ],
   "mobile-preview.url": "https://extensions.lilianbischung.fr",
+  
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.defaultFoldingRangeProvider": "google.geminicodeassist",
   "vsicons.dontShowNewVersionMessage": true,
   "eslint.format.enable": true,
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true, 
+
+  
+  "window.zoomLevel": 1,
+  "breadcrumbs.enabled": false,
+  "editor.fontSize": 24,
+  "debug.console.fontSize": 24,
+  "terminal.integrated.fontSize": 24,
+  "editor.glyphMargin": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.lineNumbers": "off",
+  "files.eol": "\n", 
+  
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  
 }
+
