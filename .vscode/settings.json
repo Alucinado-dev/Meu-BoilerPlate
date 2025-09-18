@@ -131,7 +131,6 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
 
-  "window.zoomLevel": 1,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "files.eol": "\n",
